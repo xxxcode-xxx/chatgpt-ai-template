@@ -64,6 +64,7 @@ function Sidebar(props: SidebarProps) {
         boxShadow={shadow}
       >
         <Scrollbars
+          universal={true}
           autoHide
           renderTrackVertical={renderTrack}
           renderThumbVertical={renderThumb}
@@ -127,6 +128,7 @@ export function SidebarResponsive(props: { routes: IRoute[] }) {
           />
           <DrawerBody maxW="285px" px="0rem" pb="0">
             <Scrollbars
+              universal={true}
               autoHide
               renderTrackVertical={renderTrack}
               renderThumbVertical={renderThumb}

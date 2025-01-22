@@ -185,7 +185,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
         );
       } else if (!route.invisible) {
         return (
-          <>
+          <div key={key}>
             {route.icon ? (
               <Flex
                 align="center"
@@ -321,7 +321,7 @@ export function SidebarLinks(props: SidebarLinksProps) {
                 </Flex>
               </ListItem>
             )}
-          </>
+          </div>
         );
       }
     });

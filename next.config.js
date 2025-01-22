@@ -2,7 +2,6 @@
 
 const nextConfig = {
   reactStrictMode: false,
-  swcMinify: true,
   basePath: process.env.NEXT_PUBLIC_BASE_PATH,
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
   reactStrictMode: false, // changed this to false

@@ -1,5 +1,11 @@
 # Changelog
 
+## [3.0.0] 2025-20-01
+
+### Upgraded to React 19 ⚡️
+
+### Upgraded to Next.js 15 ⚡️
+
 ## [2.2.0] 2024-07-19
 
 ### Vulnerabilities removed
